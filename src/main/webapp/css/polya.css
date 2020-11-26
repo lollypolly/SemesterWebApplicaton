@@ -1,0 +1,64 @@
+.gradient {
+    width: 1440px;
+    height: 1024px;
+    background: linear-gradient(135deg, #FABEBE 0%, #FEBCFF 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.bg-img {
+    position: absolute;
+    background-image: url(../images/ellipse.png);
+    width: 1440px;
+    height: 795px;
+    top: 0px;
+
+}
+.button-in{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background: #FEBCFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.button-in p{
+    font-family: Oswald;
+    color: #3B3B3B;
+    align-items: center;
+}
+.title-for-sign-in{
+    font-family: Lobster;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 90px;
+    color: #3B3B3B;
+}
+.cat-img {
+    position: absolute;
+    width: 940px;
+    height: 300px;
+    top:730px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-with-style {
+    font-family: Oswald;
+
+}
+.form-group p{
+    font-size: 27px;
+    color: #3B3B3B;
+    align-items: center;
+
+}
+.colona{
+    border: 1px solid #3B3B3B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}

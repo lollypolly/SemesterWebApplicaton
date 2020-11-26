@@ -1,0 +1,45 @@
+/* CSS */
+
+* {
+    font-family: Oswald, sans-serif;
+}
+
+/* Classes */
+
+.left-menu {
+    background: linear-gradient(135deg, #FABEBE 0%, #FEBCFF 100%);
+    width: 150px;
+    font-family: Arial, cursive;
+}
+
+.cat-image {
+    height: 123px;
+    width: 130px;
+    margin-bottom: auto;
+    background: url("../images/cat_left.png");
+}
+
+.profile_icon {
+    height: 40px;
+    width: 30px;
+}
+
+.heart_icon {
+    height: 40px;
+    width: 30px;
+}
+
+.my-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.down-icon {
+    height: 20px;
+    width: 20px;
+}
+.house {
+    height: 30px;
+    width: 30px;
+}
+

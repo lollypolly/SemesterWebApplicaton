@@ -1,0 +1,30 @@
+/* CSS */
+
+* {
+    font-family: Oswald, sans-serif;
+}
+
+/* Classes */
+
+.main {
+    background: linear-gradient(135deg, #FEBCFF 0%, #FABEBE 100%);
+    height: 100vh;
+}
+
+.oval {
+    height: 100%;
+    background: #FFF5F7;
+    margin-top: auto;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+}
+
+.col-form-label {
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.btn {
+    font-size: 24px;
+    line-height: 36px;
+}

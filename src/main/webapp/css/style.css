@@ -1,0 +1,54 @@
+.gradient {
+    background: linear-gradient(135deg, #FEBCFF 0%, #FABEBE 100%);
+}
+
+/* btn sign in */
+
+.btn-sign-in {
+    background: #FFFCFC;
+    border-radius: 5px;
+    width: 150px;
+    height: 37px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* btn sign up */
+
+.btn-sign-up {
+    background: #3B3B3B;
+    border-radius:5px;
+    width: 150px;
+    height: 37px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btn-sign-in p{
+    font-family: Oswald;
+    color: #3B3B3B;
+    align-items: center;
+
+}
+.btn-sign-up p{
+    font-family: Oswald;
+    color: #FFF5F7;
+    align-items: center;
+}
+
+.title-for-cat{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 142px;
+    text-align: center;
+    color: #3B3B3B;
+}
+
+.cat-image {
+    margin-top: 200px;
+    margin-bottom: auto;
+    background: url("../images/cat.png");
+}
+
+
+
+
