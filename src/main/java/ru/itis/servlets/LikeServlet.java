@@ -33,10 +33,15 @@ public class LikeServlet extends HttpServlet {
         response.setCharacterEncoding("UTF-8");
         boolean like = false;
         if (request.getSession(false).getAttribute("id") != null) {
+
+            //если в header есть значение isLiked то мы выполняем условие
             if(request.getHeader("isLiked") != null){
+
+                //условие
                 like = catService.imageLiked(Integer.parseInt(request.getSession(false).getAttribute("id").toString()),
                         request.getHeader("isLiked"));
             }
+
             if(request.getHeader("like") != null){
                 like = catService.likeImage(Integer.parseInt(request.getSession(false).getAttribute("id").toString()),
                         request.getHeader("like"));

@@ -16,6 +16,15 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Котопоиск - поиск</title>
+    <link rel="apple-touch-icon" sizes="76x76" href="${context}/assets/apple-touch-icon.png">
+    <link rel="icon" href="${context}/assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="${context}/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="${context}/assets/favicon-16x16.png">
+    <link rel="manifest" href="${context}/assets/site.webmanifest">
+    <link rel="mask-icon" href="${context}/assets/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
           integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -51,7 +60,7 @@
         <nav class="navbar navbar-light d-flex">
             <div class="d-flex ml-auto align-items-center">
                 <div class="mr-sm-2" style="width: 250px">
-                    <input class="form-control " id="search-input" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control " id="search-input" type="text" placeholder="Search">
                 </div>
 
                 <button class="btn btn-outline my-2 my-sm-0" style="background-color: #FABEBE" id="search">Search
@@ -64,10 +73,11 @@
                         <img src="${context}/uploaded/files?id=${pageContext.session.getAttribute('id')}" style="width: 30px; height: 30px;">
                     </c:if></a>
 
-                <img src="${context}/images/down_icon.png" class="down-icon mx-3">
+                <a href="${context}/">
+                    <img src="${context}/images/down_icon.png" class="down-icon mx-3"></a>
             </div>
         </nav>
-        <div class="row justify-content-center overflow-auto" style="height: 700px;">
+        <div class="row justify-content-center overflow-auto" style="height: 800px;">
             <div id="cat_container_1" class="col-2 like"></div>
             <div id="cat_container_2" class="col-2 like"></div>
             <div id="cat_container_3" class="col-2 like"></div>

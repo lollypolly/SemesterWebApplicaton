@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         try {
             for (let i = 1; i <= 5; i++) {
+                // отправляем запрос на /cat
                 let response = await fetch(url, {
                     method: 'POST',
                     headers: {

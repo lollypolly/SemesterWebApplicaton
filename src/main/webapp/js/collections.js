@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json;charset=utf-8',
-
                 }
             });
 

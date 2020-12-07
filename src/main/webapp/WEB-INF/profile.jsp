@@ -6,6 +6,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Котопоиск - профиль</title>
+    <link rel="apple-touch-icon" sizes="76x76" href="${context}/assets/apple-touch-icon.png">
+    <link rel="icon" href="${context}/assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="${context}/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="${context}/assets/favicon-16x16.png">
+    <link rel="manifest" href="${context}/assets/site.webmanifest">
+    <link rel="mask-icon" href="${context}/assets/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
           integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -46,8 +55,10 @@
             <form class="d-flex ml-auto align-items-center">
                 <a href="${context}/p/explore">
                     <img src="${context}/images/house.png" class="house mx-3"></a>
+                 Давай еще поищем, нажми на домик
+                <a href="${context}/">
+                    <img src="${context}/images/down_icon.png" class="down-icon mx-3"></a>
 
-                <img src="${context}/images/down_icon.png" class="down-icon mx-3">
             </form>
         </nav>
 
